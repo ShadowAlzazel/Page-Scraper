@@ -1,0 +1,280 @@
+{
+  "cases": [
+    {
+      "title": "Olmstead v. United States",
+      "page": 1
+    },
+    {
+      "title": "Katz v. United States",
+      "page": 2
+    },
+    {
+      "title": "United States v. Jones",
+      "page": 3
+    },
+    {
+      "title": "New Jersey v. T.L.O.",
+      "page": 4
+    },
+    {
+      "title": "Coolidge v. New Hampshire",
+      "page": 5
+    },
+    {
+      "title": "Gouled v. United States",
+      "page": 6
+    },
+    {
+      "title": "G. M. Leasing Corp. v. United States",
+      "page": 6
+    },
+    {
+      "title": "California v. Ciraolo",
+      "page": 7
+    },
+    {
+      "title": "Dow Chemical Co. v. United States",
+      "page": 8
+    },
+    {
+      "title": "Florida v. Riley",
+      "page": 9
+    },
+    {
+      "title": "United States v. Chadwick",
+      "page": 10
+    },
+    {
+      "title": "Illinois v. Andreas",
+      "page": 11
+    },
+    {
+      "title": "United States v. Knotts",
+      "page": 13
+    },
+    {
+      "title": "Carpenter v. United States",
+      "page": 14
+    },
+    {
+      "title": "United States v. Karo",
+      "page": 17
+    },
+    {
+      "title": "Cardwell v. Lewis",
+      "page": 19
+    },
+    {
+      "title": "Florida v. White",
+      "page": 19
+    },
+    {
+      "title": "Byrd v. United States",
+      "page": 20
+    },
+    {
+      "title": "Kyllo v. United States",
+      "page": 21
+    },
+    {
+      "title": "Hoffa v. United States",
+      "page": 22
+    },
+    {
+      "title": "Minnesota v. Olson",
+      "page": 23
+    },
+    {
+      "title": "Minnesota v. Carter",
+      "page": 24
+    },
+    {
+      "title": "O\u2019Connor v. Ortega",
+      "page": 25
+    },
+    {
+      "title": "City of Ontario v. Quon",
+      "page": 27
+    },
+    {
+      "title": "Hudson v. Palmer",
+      "page": 28
+    },
+    {
+      "title": "Maryland v. Macon",
+      "page": 29
+    },
+    {
+      "title": "New York v. Class",
+      "page": 30
+    },
+    {
+      "title": "Bond v. United States",
+      "page": 31
+    },
+    {
+      "title": "United States v. Place",
+      "page": 32
+    },
+    {
+      "title": "Hester v. United States",
+      "page": 34
+    },
+    {
+      "title": "Oliver v. United States",
+      "page": 35
+    },
+    {
+      "title": "United States v. Dunn",
+      "page": 36
+    },
+    {
+      "title": "California v. Greenwood",
+      "page": 37
+    },
+    {
+      "title": "Abel v. United States",
+      "page": 38
+    },
+    {
+      "title": "United States v. Verdugo-Urquidez",
+      "page": 39
+    },
+    {
+      "title": "United States v. Jacobsen",
+      "page": 40
+    },
+    {
+      "title": "Walter v. United States",
+      "page": 41
+    },
+    {
+      "title": "Third-Party Control",
+      "page": 42
+    },
+    {
+      "title": "United States v. Miller",
+      "page": 42
+    },
+    {
+      "title": "Smith v. Maryland",
+      "page": 43
+    },
+    {
+      "title": "California v. Hodari",
+      "page": 44
+    },
+    {
+      "title": "Torres v. Madrid",
+      "page": 45
+    },
+    {
+      "title": "Brower v. Inyo County",
+      "page": 46
+    },
+    {
+      "title": "Michigan v. Chesternut",
+      "page": 47
+    },
+    {
+      "title": "Brendlin v. California",
+      "page": 48
+    },
+    {
+      "title": "Florida v. Bostick",
+      "page": 49
+    },
+    {
+      "title": "United States v. Drayton",
+      "page": 50
+    },
+    {
+      "title": "Soldal v. Cook County",
+      "page": 51
+    },
+    {
+      "title": "Atwater v. City of Lago Vista",
+      "page": 52
+    },
+    {
+      "title": "Gerstein v. Pugh",
+      "page": 53
+    },
+    {
+      "title": "Riverside v. McLaughlin",
+      "page": 54
+    },
+    {
+      "title": "Payton v. New York",
+      "page": 55
+    },
+    {
+      "title": "New York v. Harris",
+      "page": 56
+    },
+    {
+      "title": "Kirk v. Louisiana",
+      "page": 58
+    },
+    {
+      "title": "Steagald v. United States",
+      "page": 58
+    },
+    {
+      "title": "Pembaur v. Cincinnati",
+      "page": 60
+    },
+    {
+      "title": "Whiteley v. Warden",
+      "page": 61
+    },
+    {
+      "title": "United States v. Watson",
+      "page": 62
+    },
+    {
+      "title": "Maryland v. Buie",
+      "page": 63
+    },
+    {
+      "title": "Terry v. Ohio",
+      "page": 65
+    },
+    {
+      "title": "Davis v. Mississippi",
+      "page": 67
+    },
+    {
+      "title": "Florida v. Royer",
+      "page": 68
+    },
+    {
+      "title": "Delaware v. Prouse",
+      "page": 69
+    },
+    {
+      "title": "Kolender v. Lawson",
+      "page": 70
+    },
+    {
+      "title": "Hiibel v. Sixth Judicial District Court",
+      "page": 71
+    },
+    {
+      "title": "United States v. Sharpe",
+      "page": 72
+    },
+    {
+      "title": "Heien v. North Carolina",
+      "page": 74
+    },
+    {
+      "title": "Rodriguez v. United States",
+      "page": 75
+    },
+    {
+      "title": "United States v. Cooley",
+      "page": 76
+    }
+  ]
+}

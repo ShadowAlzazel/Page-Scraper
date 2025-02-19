@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "title": "Olmstead v. United States",
+      "citation": "277 U.S. 438, 48 S. Ct. 564 (1928)",
+      "facts": "The defendant was the leading figure in a major conspiracy. The government, observing that the defendant appeared to conduct some of his illegal business through the means of a telephone, tapped the telephone to his home and office. In doing so, the officers refrained from entering onto the defendant\u2019s property, using the public street near his home. These wiretaps generated much of the evidence against the defendant.",
+      "issue": "Whether the government conducted a \u201csearch\u201d within the meaning of the Fourth Amendment?",
+      "held": "No. The Fourth Amendment protects \u201cpersons, houses papers and effects,\u201d none of which were implicated here.",
+      "discussion": "The Court held that, absent an intrusion onto the defendant\u2019s property, no search occurred. While this definition of search would be expanded in the Katz decision, at the time of the Olmstead ruling, no search occurred unless the government intruded into the defendant\u2019s person, home, papers, or personal effects. The officers in this instance took special care not to intrude onto the defendant\u2019s property, so, under the only definition of a search at that time, the officers were permitted to listen to the defendant\u2019s telephone conversations."
+    },
+    {
+      "title": "Katz v. United States",
+      "citation": "389 U.S. 347, 88 S. Ct. 507 (1967)",
+      "facts": "FBI agents overheard conversations of the defendant by attaching an electronic listening and recording device to the outside of a public telephone booth from which he had placed his calls. The defendant was charged with transmitting wagering information out of state. At the trial, the court permitted the government to introduce evidence of the defendant\u2019s end of telephone conversations.",
+      "issue": "Whether the agents\u2019 actions amounted to a Fourth Amendment search?",
+      "held": "Yes. The agents conducted a Fourth Amendment search.",
+      "discussion": "The Court held that a \u201csearch\u201d takes place whenever the government intrudes on a reasonable expectation of privacy. The Court concluded that the defendant\u2019s expectation of privacy was reasonable if he had taken measures to secure his privacy and the defendant\u2019s expectation of privacy met community standards. What a person seeks to preserve as private, even in an area accessible to the public, may be constitutionally protected under the Fourth Amendment. A person in a telephone booth may rely upon the protection of the Fourth Amendment and is entitled to assume that the words he utters into the mouthpiece will not be broadcast to the world. Once the defendant established that he met both prongs, any government intrusion into these areas must meet Fourth Amendment standards. The Fourth Amendment demands that all searches be reasonable. Searches conducted without a warrant are presumed to be unreasonable, except for some limited well-delineated exceptions. In this case, the agents did not have a warrant or valid exception."
+    },
+    {
+      "title": "United States v. Jones",
+      "citation": "565 U.S. 400, 132 S. Ct. 945 (2012)",
+      "facts": "The government attached a global positioning device (GPS) to the defendant\u2019s vehicle as it was parked on a public parking lot. The defendant was the exclusive driver of this vehicle. The government learned of the travel patterns of the defendant for the next 28 days. Some of this information led to his indictment for drug trafficking.",
+      "issue": "Whether the government\u2019s attachment of the GPS to the defendant\u2019s vehicle was a \u201csearch\u201d?",
+      "held": "Yes. A Fourth Amendment \u201csearch\u201d occurs when the government trespasses on a person, house, paper, or effect for the purpose of gathering information.",
+      "discussion": "The Court recognized that the \u201cFourth Amendment provides in relevant part that \u2018[t]he right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated.\u2019 It is beyond dispute that a vehicle is an \u2018effect\u2019 as that term is used in the Amendment.\u201d"
+    },
+    {
+      "title": "New Jersey v. T.L.O.",
+      "citation": "469 U.S. 325, 105 S. Ct. 733 (1985)",
+      "facts": "The defendant, a fourteen-year-old student, was found smoking cigarettes in a public high school bathroom. She was taken to the vice-principal\u2019s office. He asked the defendant to come into his private office and demanded to see her purse. Opening the purse, he found a pack of cigarettes. As he reached into the purse for the cigarettes, the vice-principal also noticed a package of cigarette rolling papers. Suspecting that a closer examination of the purse might yield further evidence of drug use, the vice-principal thoroughly searched it. He found several pieces of evidence that implicated the defendant in marijuana dealing.",
+      "issue": "Whether the intrusion of the defendant\u2019s purse by a public high school administrator was a Fourth Amendment search?",
+      "held": "Yes",
+      "discussion": "The Fourth Amendment regulates all governmental intrusions into reasonable expectations of privacy. Every governmental intrusion into a person\u2019s reasonable expectation of privacy must meet Fourth Amendment scrutiny. This is true whether the government is seeking evidence of a crime, inspecting a structure, or putting out a fire. The Court stated \u201c[A]ccordingly, we have held the Fourth Amendment applicable to the activities of civil as well as criminal authorities: building inspectors [cite omitted], Occupational Safety and Health Act inspectors [cite omitted], and even firemen entering privately owned premises to battle a fire [cite omitted], are all subject to the restraints imposed by the Fourth Amendment.\u201d The fundamental command of the Fourth Amendment is that searches and seizures be reasonable. Under ordinary circumstances, a search of a student by a teacher or other public-school official will be justified at its inception when reasonable grounds exist for suspecting evidence that the student has violated either the law or the rules of the school. Such a search will be permissible in its scope when the measures adopted are reasonably related to the objectives of the search and not excessively intrusive in light of the age and sex of the student and the nature of the infraction."
+    },
+    {
+      "title": "Coolidge v. New Hampshire",
+      "citation": "403 U.S. 443, 91 S. Ct. 2022 (1971)",
+      "facts": "The defendant, a murder suspect, admitted to a theft. Other officers went to the defendant\u2019s house to corroborate his admission to the theft. The defendant was not home but his wife agreed to speak to the officers. The officers asked about any guns that might be in the house. The defendant\u2019s wife showed them four weapons that she offered to let them take. The officers took the weapons and several articles of clothing acquired in the same manner. One gun was later determined to be the murder weapon.",
+      "issue": "Whether the officers obtained the murder weapon and the clothing through an illegal search?",
+      "held": "No. The officers obtained this evidence through private actions.",
+      "discussion": "The Fourth Amendment controls governmental actions. The Fourth Amendment was not implicated when the government obtained the guns and clothing from the defendant\u2019s wife. The government exerted no effort to coerce or dominate her and was not obligated to refuse her offer to take the guns. In making these and other items available to the government, she was not acting as an instrument or agent of the government. The items were secured through private actions."
+    },
+    {
+      "title": "Gouled v. United States",
+      "citation": "255 U.S. 298, 41 S. Ct. 261 (1921)",
+      "facts": "Gouled was involved in a conspiracy to commit mail fraud against the United States. At the direction of the government, Cohen, a business acquaintance of Gouled, pretended to make a friendly visit to Gouled at his office. When Gouled stepped out, Cohen seized and carried away several documents that were later introduced against Gouled at trial.",
+      "issue": "Whether an agent of a government has to comply with the Fourth Amendment?",
+      "held": "Yes. The Fourth Amendment requires compliance by government agents.",
+      "discussion": "The secret taking, without force, from the premises of anyone by a representative of any branch of the Federal government is a search and seizure. It is immaterial that entrance to the premises was obtained by stealth or through social acquaintance, or in the guise of a business call."
+    },
+    {
+      "title": "G. M. Leasing Corp. v. United States",
+      "citation": "429 U.S. 338, 97 S. Ct. 619 (1977)",
+      "facts": "The IRS seized certain property of a corporation that was determined to be the alter ego of a delinquent taxpayer. Government agents seized automobiles registered in the corporation\u2019s name, acting without warrants, on public streets, parking lots, and other open places. They also went to the defendant\u2019s office, a cottage-type building, and made a warrantless forced entry.",
+      "issue": [
+        "Whether the seizure of the defendant\u2019s property in public was reasonable?",
+        "Whether the warrantless intrusion into corporate property was reasonable?"
+      ],
+      "held": [
+        "Yes. The Fourth Amendment was not violated by the warrantless seizures of the corporation\u2019s automobiles, since the seizures took place on public streets, parking lots, or other open places, and did not involve any invasion of privacy.",
+        "No. The warrantless entry into the corporation\u2019s business office constituted an unconstitutional intrusion into privacy that violated the Fourth Amendment."
+      ],
+      "discussion": "The Court held the warrantless automobile seizures, which occurred in public streets, parking lots, or other open areas, involved no invasion of privacy and were constitutional. The property was validly subject to seizure and securing the property in public did not invoke any further privacy interest of the defendant\u2019s. However, the warrantless entry into the privacy of the defendant\u2019s office violated the Fourth Amendment, since \u201cexcept in certain carefully defined classes of cases, a search of private property without proper consent is \u2018unreasonable\u2019 unless it has been authorized by a valid search warrant.\u201d The Fourth Amendment protects business premises, and corporations enjoy Fourth Amendment protections."
+    },
+    {
+      "title": "California v. Ciraolo",
+      "citation": "476 U.S. 207, 106 S. Ct. 1809 (1986)",
+      "facts": "Officers received an anonymous telephone tip that the defendant was growing marijuana in his backyard. This area was enclosed by two fences, six and ten feet in height, and shielded from view at ground level. Officers trained in marijuana identification secured a private airplane, flew over the defendant's home at an altitude of 1,000 feet, and readily identified marijuana plants growing in his yard. A search warrant was issued based on this information.",
+      "issue": "Whether the naked-eye aerial observation of the defendant\u2019s backyard constituted a search?",
+      "held": "No. Areas within the curtilage may be observed from public areas.",
+      "discussion": "The Fourth Amendment\u2019s protection of the home and curtilage does not require law enforcement officers to shield their eyes when passing by a home on a public thoroughfare. Airways constitute a public thoroughfare. The government may use the public airways just as members of the public. While the fences were designed to conceal the plants at normal street level, they will not shield the plants from the elevated eyes of a citizen or a law enforcement officer."
+    },
+    {
+      "title": "Dow Chemical Co. v. United States",
+      "citation": "476 U.S. 227, 106 S. Ct. 1819 (1986)",
+      "facts": "The defendant operated a 2,000-acre chemical plant. The plant consisted of numerous covered buildings, with outdoor manufacturing equipment and piping conduits located between the buildings that were exposed to visual observation from the air. The defendant maintained an elaborate security system around the perimeter of the complex, barring ground-level public views of the area. When the defendant denied a request by the EPA for an on-site inspection of the plant, the EPA employed a commercial aerial photographer, using a standard precision aerial mapping camera, to take photographs of the facility from various altitudes, all of which were within lawful navigable airspace.",
+      "issue": "Whether this conduct was a Fourth Amendment search?",
+      "held": "No. The government can use the air space just as other members of the public.",
+      "discussion": "The EPA\u2019s aerial photograph of the defendant\u2019s plant complex from aircraft that was lawfully in public navigable airspace was not a search. Further, the open areas of an industrial plant complex are not analogous to the \u201ccurtilage\u201d of a dwelling. The open areas of an industrial complex are more comparable to an \u201copen field\u201d in which an individual may not legitimately demand privacy."
+    },
+    {
+      "title": "Florida v. Riley",
+      "citation": "488 U.S. 445, 109 S. Ct. 693 (1989)",
+      "facts": "The Sheriff\u2019s Office received an anonymous tip that the defendant was growing marijuana on his property. A deputy saw a greenhouse behind the mobile home, but could not see inside as walls, trees and the mobile home blocked his view. However, the deputy could see that part of the greenhouse roof was missing. The deputy flew over the curtilage at 400 feet in a helicopter, and with his naked eye saw marijuana inside the greenhouse. A search warrant was obtained and executed, resulting in the discovery of marijuana.",
+      "issue": "Whether naked eye observations on a curtilage from 400 feet in a helicopter constitute a search?",
+      "held": "No. The government may use air space consistent with public use.",
+      "discussion": "The Supreme Court had previously approved flying a fixed wing aircraft at 1,000 feet over curtilage. The aircraft was in public airspace and complied with FAA regulations. Therefore, no reasonable expectation of privacy existed. The Court also approved flying over an industrial complex and taking photographs, as in Dow Chemical Co. v. United States. In this case, the defendant had no reasonable expectation of privacy from the helicopter overflight. FAA regulations allow any helicopter to fly lower than fixed wing aircraft if its operation is conducted without hazard to persons or property on the ground."
+    }
+  ]
+}
