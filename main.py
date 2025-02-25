@@ -11,19 +11,20 @@ from typing import Optional, Union
 logger = logging.getLogger(__name__)
 
 from extractor import extract_text_from_pdf
-from analysis import analysis_inference
+from llm_client import BaseClient
+from settings import SETTINGS
 
 # Set the logging level (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL)
 logger.setLevel(logging.DEBUG)
-# Create a handler to direct the logs (in this case, to the console)
 stream_handler = logging.StreamHandler()
-# Create a formatter to define the log message format
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-# Set the formatter for the handler
 stream_handler.setFormatter(formatter)
-# Add the handler to the logger
 logger.addHandler(stream_handler)
 
+# Client
+LLM_CLIENT = BaseClient(
+    api=SETTINGS["client_api"], 
+    model=SETTINGS["model"])
 
 ### --------------------------------------------------------------------
 
@@ -110,7 +111,7 @@ async def process_text(text: str, sys_prompt: str):
     for attempt in range(max_retries):
         clean_text = ""
         try:
-            inf_completion = await analysis_inference(text=text, sys_prompt=sys_prompt)  # Await from API/local
+            inf_completion = await LLM_CLIENT.chat_inference(text=text, sys_prompt=sys_prompt)  # Await from API/local
             #print(inf_completion)
             
             clean_text = re.sub(r'```json|```', '', inf_completion).strip()  # Clean
@@ -133,13 +134,24 @@ async def process_text(text: str, sys_prompt: str):
 
 # Main 
 async def main(): 
-    # vars and page paths
-    file_name = "25_0106-LEG-LegalTrainingReferenceBook"
-    full_path = f'pdfs/{file_name}.pdf'
+    # Create folder for outputs if not available
+    if not os.path.isdir("output"):
+        os.makedirs("output") 
+    if not os.path.isdir("input"):
+        os.makedirs("pdfs") 
     
-    content_start = 19 
-    table_start = 5
-    table_stop = 6
+    # ------------------------------------------
+    # Quick Settings
+    file_name = SETTINGS["input"]
+    full_path = f'input/{file_name}'
+    
+    content_start = SETTINGS["content_start"] # Where to start inference.
+    table_start = SETTINGS["table_start"] # Where the table of content starts.
+    table_stop = SETTINGS["table_stop"] # Where the table of content ends.
+    max_scrapes = SETTINGS["max_scrapes"] # How many pages to run inference on. 
+
+    # ------------------------------------------
+    # Step to create what we want by reading the table of contents
 
     # the available cases in the pdf
     table_of_cases = {"cases": []}
@@ -160,10 +172,10 @@ async def main():
         else: 
             logger.warning(f'Page ({p}) did not return good data.')
 
-    logger.info(f"Finished extracting text of pdf file {file_name}")
+    logger.info(f"Finished extracting text of file {file_name}")
 
     # Write to disk 
-    output_path = f"outputs/table_of_cases.json"
+    output_path = f"output/table_of_cases.json"
     with open(output_path, "w") as output_file:
         output_file.seek(0)
         json.dump(table_of_cases, output_file, indent=2)
@@ -173,7 +185,10 @@ async def main():
 
     data_of_cases = {"cases": []}
     
-    max_i = 10
+    # ------------------------------------------
+    # Run inference per page up to max allowed
+        
+    max_i = max_scrapes
     for i, case in enumerate(table_of_cases["cases"]):
         if i >= max_i:
             break
@@ -202,12 +217,13 @@ async def main():
             
         i += 1
     
+    # ------------------------------------------
     # Write to disk 
-    output_path = f"outputs/cases.json"
+    output_path = f"output/cases.json"
     with open(output_path, "w") as output_file:
         output_file.seek(0)
         json.dump(data_of_cases, output_file, indent=2)
-
+    logger.info("Inference on all pages finished.")
 
 if __name__ == "__main__":
     args = None
