@@ -37,7 +37,7 @@ Copy this from the Green code button or `https://github.com/ShadowAlzazel/Page-S
     ```
 
 5. Run the program. 
-    NOTE: Make sure there is a pdf in the pdfs folder.
+    NOTE: Make sure there is a pdf/file in the input folder.
     ```bash
     py main.py
     ```
